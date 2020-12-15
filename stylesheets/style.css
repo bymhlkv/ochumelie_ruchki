@@ -26,6 +26,45 @@ body {
 } */
 
 
+
+.backgroundcircle1 {
+  position: absolute;
+  width: 772px;
+  height: 772px;
+  left: 79px;
+  top: 77px;
+
+  background: radial-gradient(50% 50% at 50% 50%, rgba(243, 162, 188, 0.4) 13.02%, rgba(243, 162, 188, 0) 100%);
+}
+
+.backgroundcircle2 {
+  position: absolute;
+  width: 414px;
+  height: 414px;
+  left: 490px;
+  top: 765px;
+
+  background: radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0.4) 13.02%, rgba(255, 255, 255, 0) 100%);
+}
+
+.backgroundcircle3 {
+  position: absolute;
+  width: 414px;
+  height: 414px;
+  left: 21px;
+  top: 1296px;
+
+  background: radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0.4) 13.02%, rgba(255, 255, 255, 0) 100%);
+}
+
+.backgroundgrain{
+  position: absolute;
+  width: 1440px;
+  height: 2697px;
+  left: 0px;
+  top: 0px;
+}
+
 html {
   background: #F5F5F5;
   height: 2697px;
