@@ -25,6 +25,13 @@ body {
   height: 100%;
 } */
 
+/* html {
+  background: #F5F5F5;
+  height: 2697px;
+  position: relative;
+  scroll-behavior: smooth;
+} */
+
 .backgroundcircles {
   display: block;
   padding-left: 0;
@@ -34,6 +41,7 @@ body {
 
 .backgroundcircle1 {
   /* display: block; */
+  position: absolute;
   width: 772px;
   height: 772px;
   left: 79px;
@@ -43,6 +51,7 @@ body {
 
 .backgroundcircle2 {
   /* display: block; */
+  position: absolute;
   width: 414px;
   height: 414px;
   left: 490px;
@@ -52,6 +61,7 @@ body {
 
 .backgroundcircle3 {
   /* display: block; */
+  position: absolute;
   width: 414px;
   height: 414px;
   left: 21px;
@@ -63,24 +73,18 @@ body {
   position: absolute;
   width: 1440px;
   height: 2697px;
-  margin-left:: 0px;
-  margin-top: 0px;
+  /* margin-left:: 0px;
+  margin-top: 0px; */
 }
 
-/* html {
-  background: #F5F5F5;
-  height: 2697px;
-  position: relative;
-  scroll-behavior: smooth;
-} */
 
 .upperblocks {
-  position:;
+  display: block;
+  position: absolute;
+  margin-left: 20px;
+  margin-top: 20px;
 }
 
-.upperblocks1 {
-  max-width: 1440px
-}
 
 .linesblock1 {
   position: relative;
@@ -332,10 +336,12 @@ body {
 .blueimg {
   position: relative;
   display: block;
-  width: 666px;
+  margin-left: 0;
+  margin-left: 0;
+  /* width: 666px;
   height: 390px;
   left: -20px;
-  top: -75px;
+  top: -75px; */
 
 }
 
