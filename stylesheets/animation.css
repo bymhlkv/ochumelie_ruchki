@@ -285,3 +285,115 @@
     color: #F3A2BC;
   }
 }
+
+@keyframes lllanim1 {
+  0% {
+    background-color: #FFFFFF;
+  }
+  25% {
+    background-color: #FFCCD6;
+  }
+  50% {
+    background-color: #FFEC51;
+  }
+  75% {
+    background-color: #21B8EB;
+  }
+  100% {
+    background-color: #F3A2BC;
+  }
+}
+
+@keyframes lllanim2 {
+  0% {
+    background-color: #FFFFFF;
+  }
+  25% {
+    background-color: #21B8EB ;
+  }
+  50% {
+    background-color:  #FFCCD6;
+  }
+  75% {
+    background-color: #FFEC51;
+  }
+  100% {
+    background-color: #F3A2BC;
+  }
+}
+
+@keyframes lllanim3 {
+  0% {
+    background-color: #FFFFFF;
+  }
+  25% {
+    background-color: #F3A2BC;
+  }
+  50% {
+    background-color:   #FFEC51;
+  }
+  75% {
+    background-color: #FFCCD6;
+  }
+  100% {
+    background-color: #21B8EB ;
+  }
+}
+
+@keyframes circlesanim1 {
+
+  25% {
+    background-color: #F3A2BC;
+  }
+  50% {
+    background-color:    #FFFFFF;
+  }
+  75% {
+    background-color: #FFCCD6;
+  }
+  100% {
+    background-color: #21B8EB ;
+  }
+}
+
+@keyframes circlesanim2 {
+
+  25% {
+    background-color: #FFFFFF ;
+  }
+  50% {
+    background-color: #FFCCD6 ;
+  }
+  75% {
+    background-color: #F3A2BC;
+  }
+  100% {
+    background-color: #FFEC51 ;
+  }
+}
+
+@keyframes circlesanim3 {
+
+  25% {
+    background-color: #FFEC51;
+  }
+  50% {
+    background-color: #21B8EB  ;
+  }
+  75% {
+    background-color: #F3A2BC;
+  }
+  100% {
+    background-color: #FFFFFF;
+  }
+}
+
+@keyframes wheelimganim {
+
+  0% {
+    transform: translateX(-30vw);
+  }
+  50% {
+    transform: translateX(0vw);
+  }
+}
