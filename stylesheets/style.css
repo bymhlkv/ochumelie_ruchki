@@ -224,6 +224,7 @@ body {
   background: #FFCCD6;
   animation: circleappearing1 0.5s ;
   animation-delay: 0.5s;
+  animation-iteration-count:
 
 }
 
@@ -319,6 +320,7 @@ body {
   font-stretch: expanded;
   font-size: 10.714vw;
   color: #FFFFFF;
+  animation: headingtextanim 2s infinite;
 }
 
 .headingtext1 {
@@ -331,7 +333,7 @@ body {
   font-family: "Akzidenz-Grotesk Pro";
   font-weight: 400;
   font-stretch: expanded;
-  font-size: 2.143vw;
+  font-size: 2vw;
   line-height: 2.714vw;
   color: #FFFFFF;
 }
@@ -685,6 +687,7 @@ body {
   left: 71.429vw;
   top: 57.071vw;
   background: #FFFFFF;
+  animation: longlineanim 2s infinite;
 }
 
 .longline2 {
@@ -694,6 +697,7 @@ body {
   left: 71.429vw;
   top: 59.214vw;
   background: #FFFFFF;
+  animation: longlineanim 2s infinite;
 }
 
 .eventtext1 {
@@ -715,8 +719,8 @@ body {
   position: absolute;
   width: 26.714vw;
   height: 2.857vw;
-  left: 54.857vw;
-  top: 73.786vw;
+  left: 57vw;
+  top: 72vw;
 
   font-family: "Akzidenz-Grotesk Pro";
   font-weight: 700;
@@ -732,6 +736,7 @@ body {
   left: 42vw;
   top: 73.5vw;
   box-sizing: border-box;
+  animation: arrowanimation 2s infinite;
 }
 
 .figimg1 {
@@ -740,6 +745,7 @@ body {
   height: 17.857vw;
   left: 35.714vw;
   top: 77vw;
+  animation: figimgmoving1 2s infinite;
 }
 
 .verticalline1 {
@@ -750,6 +756,7 @@ body {
   top: 84.286vw;
   background: #FFFFFF;
   transform: rotate(-90deg);
+  animation: verticallineanim1 2s infinite;
 }
 
 .verticalline2 {
@@ -760,6 +767,7 @@ body {
   top: 84.286vw;
   background: #FFFFFF;
   transform: rotate(-90deg);
+  animation: verticallineanim2 2s infinite;
 }
 
 .verticalline3 {
@@ -770,6 +778,7 @@ body {
   top: 84.286vw;
   background: #FFFFFF;
   transform: rotate(-90deg);
+  animation: verticallineanim3 2s infinite;
 }
 
 .verticalline4 {
@@ -780,6 +789,7 @@ body {
   top: 84.286vw;
   background: #FFFFFF;
   transform: rotate(-90deg);
+  animation: verticallineanim4 2s infinite;
 }
 
 .verticalline5 {
@@ -790,6 +800,7 @@ body {
   top: 84.286vw;
   background: #FFEC51;
   transform: rotate(-90deg);
+  animation: verticallineanim5 2s infinite;
 }
 
 .verticalline6 {
@@ -800,6 +811,7 @@ body {
   top: 84.286vw;
   background: #FFFFFF;
   transform: rotate(-90deg);
+  animation: verticallineanim6 2s infinite;
 }
 
 .verticalline7 {
@@ -810,6 +822,7 @@ body {
   top: 84.286vw;
   background: #FFFFFF;
   transform: rotate(-90deg);
+  animation: verticallineanim7 2s infinite;
 }
 
 .verticalline8 {
@@ -820,6 +833,7 @@ body {
   top: 84.286vw;
   background: #F3A2BC;
   transform: rotate(-90deg);
+  animation: verticallineanim8 2s infinite;
 }
 
 .verticalline9 {
@@ -830,6 +844,7 @@ body {
   top: 84.286vw;
   background: #21B8EB;
   transform: rotate(-90deg);
+  animation: verticallineanim9 2s infinite;
 }
 
 .verticalline10 {
@@ -840,6 +855,7 @@ body {
   top: 84.286vw;
   background: #FFFFFF;
   transform: rotate(-90deg);
+  animation: verticallineanim10 2s infinite;
 }
 
 .yellowline {
@@ -849,6 +865,7 @@ body {
   left: 34.714vw;
   top: 92.143vw;
   background: #FFEC51;
+  animation: yellowlineanim 2s infinite;
 }
 
 .ln1 {
@@ -1080,6 +1097,11 @@ body {
   top: 64vw;
   border: 1.042vw solid #F3A2BC;
   box-sizing: border-box;
+
+}
+
+.trafficlight1:hover {
+  animation: trafficlightanimation1 2s infinite;
 }
 
 .circle5 {
@@ -1092,6 +1114,7 @@ body {
   background: #FFCCD6;
   animation: circleappearing1 0.5s ;
   animation-delay: 0.5s;
+  animation: trafficlightanimation2 2s infinite;
 }
 
 .circle6 {
@@ -1151,6 +1174,7 @@ body {
   top: 86vw;
   background: #21B8EB;
   box-sizing: border-box;
+  animation: trafficlightanim 2s infinite;
 }
 
 .gde {
