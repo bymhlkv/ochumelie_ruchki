@@ -80,7 +80,7 @@
 
 @keyframes blocksappearing2 {
   0% {
-    transform: translateX(-10vw);
+    transform: translateX(-9vw);
   }
   100% {
     transform: translateX(0vw);
@@ -89,7 +89,7 @@
 
 @keyframes blocksappearing3 {
   0% {
-    transform: translateX(-10vw);
+    transform: translateX(-8vw);
   }
   100% {
     transform: translateX(0vw);
@@ -98,7 +98,7 @@
 
 @keyframes blocksappearing4 {
   0% {
-    transform: translateX(-10vw);
+    transform: translateX(-7vw);
   }
   100% {
     transform: translateX(0vw);
@@ -107,7 +107,7 @@
 
 @keyframes blocksappearing5 {
   0% {
-    transform: translateX(-10vw);
+    transform: translateX(-6vw);
   }
   100% {
     transform: translateX(0vw);
@@ -116,7 +116,7 @@
 
 @keyframes blocksappearing6 {
   0% {
-    transform: translateX(-10vw);
+    transform: translateX(-5vw);
   }
   100% {
     transform: translateX(0vw);
@@ -125,7 +125,7 @@
 
 @keyframes blocksappearing7 {
   0% {
-    transform: translateX(-10vw);
+    transform: translateX(-4vw);
   }
   100% {
     transform: translateX(0vw);
@@ -134,7 +134,7 @@
 
 @keyframes blocksappearing8 {
   0% {
-    transform: translateX(-10vw);
+    transform: translateX(-3vw);
   }
   100% {
     transform: translateX(0vw);
@@ -143,7 +143,7 @@
 
 @keyframes blocksappearing9 {
   0% {
-    transform: translateX(-10vw);
+    transform: translateX(-2vw);
   }
   100% {
     transform: translateX(0vw);
@@ -152,9 +152,136 @@
 
 @keyframes blocksappearing10 {
   0% {
-    transform: translateX(-10vw);
+    transform: translateX(-1vw);
   }
   100% {
     transform: translateX(0vw);
+  }
+}
+
+@keyframes trafficlightanimation1 {
+  50% {
+    border-color: #FFEC51;
+  }
+}
+
+@keyframes verticallineanim1 {
+  50% {
+    background-color: #FFEC51;
+  }
+}
+
+@keyframes verticallineanim2 {
+  50% {
+    background-color: #FFCCD6;
+  }
+}
+
+@keyframes verticallineanim3 {
+  50% {
+    background-color: #21B8EB;
+  }
+}
+
+@keyframes verticallineanim4 {
+  50% {
+    background-color: #F3A2BC;
+  }
+}
+
+@keyframes verticallineanim5 {
+  50% {
+    background-color: #FFFFFF;
+  }
+}
+
+@keyframes verticallineanim6 {
+  50% {
+    background-color: #FFCCD6;
+  }
+}
+
+@keyframes verticallineanim7 {
+  50% {
+    background-color: #21B8EB;
+  }
+}
+
+@keyframes verticallineanim8 {
+  50% {
+    background-color: #21B8EB;
+  }
+}
+
+@keyframes verticallineanim9 {
+  50% {
+    background-color: #FFEC51;
+  }
+}
+
+@keyframes verticallineanim10 {
+  50% {
+    background-color: #FFCCD6;
+  }
+}
+
+@keyframes figimgmoving1 {
+  0% {
+    transform: translateY(0vw);
+  }
+  50% {
+    transform: translateY(35vw);
+    width: 10vw;
+  }
+  100% {
+    transform: translateY(0vw);
+  }
+}
+
+@keyframes yellowlineanim {
+  0% {
+    width: 0vw;
+  }
+  50% {
+    width: 50.714vw;
+  }
+  100% {
+    width: 0vw;
+  }
+}
+
+@keyframes longlineanim {
+  0% {
+    width: 31.429vw;
+  }
+  50% {
+    width: 0vw;
+  }
+  100% {
+    width: 31.429vw;
+  }
+}
+
+@keyframes trafficlightanim{
+  50% {
+    background-color: #F3A2BC;
+  }
+}
+
+@keyframes headingtextanim {
+  0% {
+    color: #FFFFFF;
+  }
+  25% {
+    color: #FFCCD6;
+  }
+  50% {
+    color: #FFEC51;
+  }
+  75% {
+    color: #21B8EB;
+  }
+  100% {
+    color: #F3A2BC;
   }
 }
