@@ -397,3 +397,13 @@
     transform: translateX(0vw);
   }
 }
+
+@keyframes scaleimg {
+
+  /* 0% {
+    width: 0vw;
+  } */
+  50% {
+    width: 0vw;
+  }
+}
