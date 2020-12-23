@@ -1078,6 +1078,7 @@ body {
   left: 27.786vw;
   top: 93.691vw;
   transform: rotate(-7.35deg);
+  animation: imgxanimation 2s infinite;
 }
 
 /* .group32 {
@@ -1225,8 +1226,8 @@ body {
   height: 8.357vw;
   left: 38.357vw;
   top: 101.929vw;
-
   background: #FFEC51;
+  animation: circlesanim1 2s infinite;
 }
 
 .ll1 {
@@ -1282,8 +1283,8 @@ body {
   height: 0.857vw;
   left: 50.714vw;
   top: 103.929vw;
-
   background: #FFFFFF;
+  animation: lllanim1 2s infinite;
 }
 
 .lll2 {
@@ -1292,7 +1293,6 @@ body {
   height: 0.857vw;
   left: 50.714vw;
   top: 106.643vw;
-
   background: #FFFFFF;
 }
 
@@ -1302,7 +1302,6 @@ body {
   height: 0.857vw;
   left: 50.714vw;
   top: 109.357vw;
-
   background: #FFFFFF;
 }
 
@@ -1312,8 +1311,8 @@ body {
   height: 0.857vw;
   left: 50.714vw;
   top: 112vw;
-
   background: #FFFFFF;
+  animation: lllanim2 2s infinite;
 }
 
 .lll5 {
@@ -1322,8 +1321,8 @@ body {
   height: 0.857vw;
   left: 50.714vw;
   top: 114.714vw;
-
   background: #FFFFFF;
+  animation: lllanim3 2s infinite;
 }
 
 .lll6 {
@@ -1628,6 +1627,7 @@ body {
   height: 2.642vw;
   left: 20.2vw;
   top: 129.429vw;
+  animation: wheelimganim 2s infinite;
 }
 
 .vector36img {
@@ -1663,8 +1663,8 @@ body {
   height: 9.357vw;
   left: 20.929vw;
   top: 155.286vw;
-
   background: #FFCCD6;
+  animation: circlesanim3 2s infinite;
 }
 
 .bluecircle {
@@ -1674,8 +1674,8 @@ body {
   height: 9.357vw;
   left: 11.571vw;
   top: 146.071vw;
-
   background: #21B8EB;
+  animation: circlesanim2 2s infinite;
 }
 
 .colhorline1 {
