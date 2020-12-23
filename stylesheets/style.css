@@ -1392,8 +1392,8 @@ body {
   height: 7.786vw;
   left: 50.714vw;
   top: 128.929vw;
-
   background: #FFFFFF;
+  animation: horlineanim1 2s infinite;
 }
 
 .horline2 {
@@ -1402,8 +1402,8 @@ body {
   height: 7.786vw;
   left: 54.214vw;
   top: 128.929vw;
-
   background: #FFFFFF;
+  animation: horlineanim2 2s infinite;
 }
 
 .horline3 {
@@ -1412,8 +1412,8 @@ body {
   height: 7.786vw;
   left: 57.714vw;
   top: 128.929vw;
-
   background: #FFFFFF;
+  animation: horlineanim3 2s infinite;
 }
 
 .verlinesimg {
@@ -1444,8 +1444,9 @@ body {
   height: 0.214vw;
   left: 68.071vw;
   top: 138.429vw;
-
   background: #FFFFFF;
+  animation: movinganim1 2s infinite;
+  animation-delay: 2s;
 }
 
 .lineline12 {
@@ -1454,8 +1455,9 @@ body {
   height: 1.214vw;
   left: 43.429vw;
   top: 141.357vw;
-
   background: #FFFFFF;
+  animation: movinganim2 2s infinite;
+  animation-delay: 2s;
 }
 
 .lineline13 {
@@ -1464,8 +1466,9 @@ body {
   height: 1.214vw;
   left: 43.429vw;
   top: 144.857vw;
-
   background: #FFFFFF;
+  animation: movinganim3 2s infinite;
+  animation-delay: 2s;
 }
 
 .kogda {
@@ -1521,6 +1524,7 @@ body {
   height: 13.857vw;
   left: 43.429vw;
   top: 149.500vw;
+  animation: whiteknitimganim 2s infinite;
 }
 
 .pinkximg {
@@ -1785,6 +1789,7 @@ body {
   height: 7.071vw;
   left: 17.357vw;
   top: 168vw;
+  animation: dilinesimganim 2s infinite;
 }
 
 .threelinesimg1 {
@@ -2096,7 +2101,8 @@ body {
   width: 14.857vw;
   height: 14.857vw;
   left: 59.5vw;
-  top: 173vw;
+  top: 174vw;
+  animation: lastfigimganim 2s infinite;
 }
 
 .hrline1 {
