@@ -407,3 +407,73 @@
     width: 0vw;
   }
 }
+
+@keyframes horlineanim1 {
+  50% {
+    opacity: 0%;
+  }
+}
+
+@keyframes horlineanim2 {
+  /* 0% {
+    opacity: 0%;
+  } */
+  100% {
+    opacity: 0%;
+  }
+}
+
+@keyframes horlineanim3 {
+  50% {
+    opacity: 0%;
+  }
+}
+
+@keyframes movinganim1 {
+0% {
+  transform: translateX(-100vw);
+    }
+50% {
+  transform: translateX(0vw);
+}
+}
+
+@keyframes movinganim2 {
+0% {
+  transform: translateX(100vw);
+    }
+50% {
+  transform: translateX(0vw);
+}
+}
+
+@keyframes movinganim3 {
+0% {
+  transform: translateX(-100vw);
+    }
+50% {
+  transform: translateX(0vw);
+}
+}
+
+@keyframes whiteknitimganim {
+  50% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes dilinesimganim {
+  0% {
+    transform: translateX(-100vw);
+  }
+  50% {
+    transform: translateX(0vw);
+  }
+}
+
+@keyframes lastfigimganim {
+  50% {
+    transform: rotate(180deg);
+
+  }
+}
