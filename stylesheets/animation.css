@@ -1,0 +1,160 @@
+@keyframes pulse {
+	0% {
+		opacity: 0%;
+	}
+
+	70% {
+		opacity: 100%;
+	}
+
+	100% {
+		opacity: 0%;
+  }
+}
+
+@keyframes figimgmoving {
+  0% {
+    transform: translateX(0vw);
+  }
+  50% {
+    transform: translateX(15vw);
+  }
+  100% {
+    transform: translateX(0vw);
+  }
+}
+
+@keyframes imgxanimation {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes circleappearing1 {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
+@keyframes circleappearing2 {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
+@keyframes circleappearing3 {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
+@keyframes circleappearing4 {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
+@keyframes blocksappearing1 {
+  0% {
+    transform: translateX(-10vw);
+  }
+  100% {
+    transform: translateX(0vw);
+  }
+}
+
+@keyframes blocksappearing2 {
+  0% {
+    transform: translateX(-10vw);
+  }
+  100% {
+    transform: translateX(0vw);
+  }
+}
+
+@keyframes blocksappearing3 {
+  0% {
+    transform: translateX(-10vw);
+  }
+  100% {
+    transform: translateX(0vw);
+  }
+}
+
+@keyframes blocksappearing4 {
+  0% {
+    transform: translateX(-10vw);
+  }
+  100% {
+    transform: translateX(0vw);
+  }
+}
+
+@keyframes blocksappearing5 {
+  0% {
+    transform: translateX(-10vw);
+  }
+  100% {
+    transform: translateX(0vw);
+  }
+}
+
+@keyframes blocksappearing6 {
+  0% {
+    transform: translateX(-10vw);
+  }
+  100% {
+    transform: translateX(0vw);
+  }
+}
+
+@keyframes blocksappearing7 {
+  0% {
+    transform: translateX(-10vw);
+  }
+  100% {
+    transform: translateX(0vw);
+  }
+}
+
+@keyframes blocksappearing8 {
+  0% {
+    transform: translateX(-10vw);
+  }
+  100% {
+    transform: translateX(0vw);
+  }
+}
+
+@keyframes blocksappearing9 {
+  0% {
+    transform: translateX(-10vw);
+  }
+  100% {
+    transform: translateX(0vw);
+  }
+}
+
+@keyframes blocksappearing10 {
+  0% {
+    transform: translateX(-10vw);
+  }
+  100% {
+    transform: translateX(0vw);
+  }
+}
