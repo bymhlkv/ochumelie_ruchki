@@ -1,6 +1,8 @@
 @import "reset.css";
 @import "fonts.css";
 @import "responsive.css";
+@import "animation.css";
+
 
 
 * {
@@ -83,19 +85,6 @@ body {
   animation: pulse 2s infinite;
 }
 
-@keyframes pulse {
-	0% {
-		opacity: 0%;
-	}
-
-	70% {
-		opacity: 100%;
-	}
-
-	100% {
-		opacity: 0%;
-  }
-}
 
 
 .backgroundgrain{
@@ -221,6 +210,7 @@ body {
   height: 7vw;
   left: 25vw;
   top: 9.8vw;
+  animation: figimgmoving 2s infinite;
 
 }
 
@@ -232,6 +222,9 @@ body {
   left: 7.286vw;
   top: 16.643vw;
   background: #FFCCD6;
+  animation: circleappearing1 0.5s ;
+  animation-delay: 0.5s;
+
 }
 
 
@@ -243,6 +236,8 @@ body {
   top: 16.643vw;
   border-radius: 50%;
   background: #FFEC51;
+  animation: circleappearing2 0.5s;
+  animation-delay: 1s;
 }
 
 .circle3 {
@@ -253,6 +248,8 @@ body {
   top: 18.643vw;
   border-radius: 50%;
   background: #21B8EB;
+  animation: circleappearing3 0.5s;
+  animation-delay: 1.5s;
 }
 
 .circle4 {
@@ -263,6 +260,8 @@ body {
   top: 18.643vw;
   border-radius: 50%;
   background: #F3A2BC;
+  animation: circleappearing4 0.5s;
+  animation-delay: 2s;
 }
 
 
@@ -343,7 +342,9 @@ body {
   top: 0vw;
   width: 47.571vw;
   height: 27.857vw;
+  animation: pulse 2s infinite;
 }
+
 
 .yellowimg {
   position: absolute;
@@ -351,6 +352,7 @@ body {
   height: 28.571vw;
   left: 75vw;
   top: 24vw;
+  animation: pulse 2s infinite;
 }
 
 .yellowimgx {
@@ -359,6 +361,7 @@ body {
   height: 1.9vw;
   left: 38vw;
   top: 5.834vw;
+  animation: imgxanimation 2s infinite;
 }
 
 /* .lines10block {
@@ -373,6 +376,8 @@ body {
   width: 17.357vw;
   height: 0.857vw;
   background: white;
+  animation: blocksappearing1 2s infinite;
+
 }
 
 .lines10block2 {
@@ -382,6 +387,8 @@ body {
   width: 17.357vw;
   height: 0.857vw;
   background: white;
+  animation: blocksappearing2 2s infinite;
+  animation-delay: 0.1s;
 }
 
 .lines10block3 {
@@ -391,6 +398,8 @@ body {
   width: 17.357vw;
   height: 0.857vw;
   background: white;
+  animation: blocksappearing3 2s infinite;
+  animation-delay: 0.2s;
 }
 
 .lines10block4 {
@@ -400,6 +409,8 @@ body {
   width: 17.357vw;
   height: 0.857vw;
   background: #FFEC51;
+  animation: blocksappearing4 2s infinite;
+  animation-delay: 0.3s;
 }
 
 .lines10block5 {
@@ -409,6 +420,8 @@ body {
   width: 17.357vw;
   height: 0.857vw;
   background: white;
+  animation: blocksappearing5 2s infinite;
+  animation-delay: 0.4s;
 }
 
 .lines10block6 {
@@ -418,6 +431,8 @@ body {
   width: 17.357vw;
   height: 0.857vw;
   background: white;
+  animation: blocksappearing6 2s infinite;
+  animation-delay: 0.5s;
 }
 
 .lines10block7 {
@@ -427,6 +442,8 @@ body {
   width: 17.357vw;
   height: 0.857vw;
   background: #F3A2BC;
+  animation: blocksappearing7 2s infinite;
+  animation-delay: 0.6s;
 }
 
 .lines10block8 {
@@ -436,6 +453,8 @@ body {
   width: 17.357vw;
   height: 0.857vw;
   background: white;
+  animation: blocksappearing8 2s infinite;
+  animation-delay: 0.7s;
 }
 
 .lines10block9 {
@@ -445,6 +464,8 @@ body {
   width: 17.357vw;
   height: 0.857vw;
   background: #21B8EB;
+  animation: blocksappearing9 2s infinite;
+  animation-delay: 0.8s;
 }
 
 .lines10block10 {
@@ -454,6 +475,8 @@ body {
   width: 17.357vw;
   height: 0.857vw;
   background: white;
+  animation: blocksappearing10 2s infinite;
+  animation-delay: 0.9s;
 }
 
 .lineline1 {
@@ -571,6 +594,7 @@ body {
   height: 1.491vw;
   left: 27.571vw;
   top: 58.476vw;
+  animation: imgxanimation 2s infinite;
 }
 
 .roadline1 {
@@ -1039,12 +1063,94 @@ body {
   transform: rotate(-7.35deg);
 }
 
-.group32 {
+/* .group32 {
   position: absolute;
   width: 7.214vw;
   height: 28.584vw;
   left: 89vw;
   top: 65.071vw;
+} */
+
+.trafficlight1 {
+  position: absolute;
+  border-radius: 50%;
+  width: 7.014vw;
+  height: 7.014vw;
+  left: 91vw;
+  top: 64vw;
+  border: 1.042vw solid #F3A2BC;
+  box-sizing: border-box;
+}
+
+.circle5 {
+  position: absolute;
+  border-radius: 50%;
+  width: 0.756vw;
+  height: 0.706vw;
+  left: 93.3vw;
+  top: 66.5vw;
+  background: #FFCCD6;
+  animation: circleappearing1 0.5s ;
+  animation-delay: 0.5s;
+}
+
+.circle6 {
+  position: absolute;
+  border-radius: 50%;
+  width: 0.756vw;
+  height: 0.706vw;
+  left: 95vw;
+  top: 66.5vw;
+  background: #FFEC51;
+  animation: circleappearing2 0.5s ;
+  animation-delay: 1s;
+}
+
+.circle7 {
+  position: absolute;
+  border-radius: 50%;
+  width: 0.756vw;
+  height: 0.706vw;
+  left: 93.3vw;
+  top: 68vw;
+  background: #21B8EB;
+  animation: circleappearing3 0.5s ;
+  animation-delay: 1.5s;
+}
+
+.circle8 {
+  position: absolute;
+  border-radius: 50%;
+  width: 0.756vw;
+  height: 0.706vw;
+  left: 95vw;
+  top: 68vw;
+  background: #F3A2BC;
+  animation: circleappearing4 0.5s ;
+  animation-delay: 2s;
+}
+
+
+.trafficlight2 {
+  position: absolute;
+  border-radius: 50%;
+  width: 7.014vw;
+  height: 7.014vw;
+  left: 91vw;
+  top: 75vw;
+  border: 2.083vw solid #FFEC51;
+  box-sizing: border-box;
+}
+
+.trafficlight3 {
+  position: absolute;
+  border-radius: 50%;
+  width: 7.014vw;
+  height: 7.014vw;
+  left: 91vw;
+  top: 86vw;
+  background: #21B8EB;
+  box-sizing: border-box;
 }
 
 .gde {
@@ -1143,6 +1249,7 @@ body {
   height: 2.340vw;
   left: 95.571vw;
   top: 103.145vw;
+  animation: imgxanimation 2s infinite;
 }
 
 .lll1 {
@@ -1398,6 +1505,7 @@ body {
   height: 0.869vw;
   left: 53.121vw;
   top: 148.179vw;
+  animation: imgxanimation 2s infinite;
 
   transform: rotate(-7.35deg);
 }
@@ -1521,6 +1629,7 @@ body {
   height: 2vw;
   left: 36vw;
   top: 135.476vw;
+  animation: imgxanimation 2s infinite;
 }
 
 .pinkcircle {
