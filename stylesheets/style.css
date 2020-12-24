@@ -1408,6 +1408,7 @@ body {
   top: 128.929vw;
   background: #FFFFFF;
   animation: horlineanim1 2s infinite;
+  animation-delay: 0.5s;
 }
 
 .horline2 {
@@ -1418,6 +1419,7 @@ body {
   top: 128.929vw;
   background: #FFFFFF;
   animation: horlineanim2 2s infinite;
+  animation-delay: 1s;
 }
 
 .horline3 {
@@ -1428,6 +1430,7 @@ body {
   top: 128.929vw;
   background: #FFFFFF;
   animation: horlineanim3 2s infinite;
+  animation-delay: 1.5s;
 }
 
 .verlinesimg {
@@ -1706,6 +1709,8 @@ body {
   top: 141.357vw;
 
   background: #FFFFFF;
+  animation: colhorlineanim1 2s infinite;
+  animation-delay: 0.2s;
 }
 
 .colhorline2 {
@@ -1716,6 +1721,8 @@ body {
   top: 144.071vw;
 
   background: #FFFFFF;
+  animation: colhorlineanim2 2s infinite;
+  animation-delay: 0.4s;
 }
 
 .colhorline3 {
@@ -1726,6 +1733,8 @@ body {
   top: 146.786vw;
 
   background: #FFFFFF;
+  animation: colhorlineanim3 2s infinite;
+  animation-delay: 0.6s;
 }
 
 .colhorline4 {
@@ -1736,6 +1745,8 @@ body {
   top: 149.429vw;
 
   background: #FFEC51;
+  animation: colhorlineanim4 2s infinite;
+  animation-delay: 0.8s;
 }
 
 .colhorline5 {
@@ -1746,6 +1757,8 @@ body {
   top: 152.143vw;
 
   background: #FFFFFF;
+  animation: colhorlineanim5 2s infinite;
+  animation-delay: 1s;
 }
 
 .colhorline6 {
@@ -1756,6 +1769,8 @@ body {
   top: 154.429vw;
 
   background: #FFFFFF;
+  animation: colhorlineanim6 2s infinite;
+  animation-delay: 1.2s;
 }
 
 .colhorline7 {
@@ -1766,6 +1781,8 @@ body {
   top: 156.714vw;
 
   background: #F3A2BC;
+  animation: colhorlineanim7 2s infinite;
+  animation-delay: 1.4s;
 }
 
 .colhorline8 {
@@ -1776,6 +1793,8 @@ body {
   top: 159vw;
 
   background: #FFFFFF;
+  animation: colhorlineanim8 2s infinite;
+  animation-delay: 1.6s;
 }
 
 .colhorline9 {
@@ -1786,6 +1805,8 @@ body {
   top: 161.286vw;
 
   background: #21B8EB;
+  animation: colhorlineanim9 2s infinite;
+  animation-delay: 1.8s;
 }
 
 .colhorline10 {
@@ -1796,6 +1817,8 @@ body {
   top: 163.571vw;
 
   background: #FFFFFF;
+  animation: colhorlineanim10 2s infinite;
+  animation-delay: 2s;
 }
 
 .dilinesimg {
@@ -2032,6 +2055,8 @@ body {
 
   background: #FFFFFF;
   transform: matrix(1, 0, 0, -1, 0, 0);
+  animation: horlinanim1 2s infinite;
+  animation-delay: 0.2s;
 }
 
 .horlin2 {
@@ -2043,6 +2068,8 @@ body {
 
   background: #FFFFFF;
   transform: matrix(1, 0, 0, -1, 0, 0);
+  animation: horlinanim2 2s infinite;
+  animation-delay: 0.4s;
 }
 
 .horlin3 {
@@ -2054,6 +2081,8 @@ body {
 
   background: #FFFFFF;
   transform: matrix(1, 0, 0, -1, 0, 0);
+  animation: horlinanim3 2s infinite;
+  animation-delay: 0.6s;
 }
 
 .horlin4 {
@@ -2065,6 +2094,8 @@ body {
 
   background: #FFFFFF;
   transform: matrix(1, 0, 0, -1, 0, 0);
+  animation: horlinanim4 2s infinite;
+  animation-delay: 0.8s;
 }
 
 .horlin5 {
@@ -2076,6 +2107,8 @@ body {
 
   background: #FFFFFF;
   transform: matrix(1, 0, 0, -1, 0, 0);
+  animation: horlinanim5 2s infinite;
+  animation-delay: 1s;
 }
 
 .horlin7 {
@@ -2087,6 +2120,8 @@ body {
 
   background: #FFFFFF;
   transform: matrix(1, 0, 0, -1, 0, 0);
+  animation: horlinanim7 2s infinite;
+  animation-delay: 1.2s;
 }
 
 .horlin8 {
@@ -2098,6 +2133,8 @@ body {
 
   background: #FFFFFF;
   transform: matrix(1, 0, 0, -1, 0, 0);
+  animation: horlinanim8 2s infinite;
+  animation-delay: 1.4s;
 }
 
 .horlin9 {
@@ -2109,6 +2146,8 @@ body {
 
   background: #FFFFFF;
   transform: matrix(1, 0, 0, -1, 0, 0);
+  animation: horlinanim9 2s infinite;
+  animation-delay: 1.6s;
 }
 
 .lastfigimg {
