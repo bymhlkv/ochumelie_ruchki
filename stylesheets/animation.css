@@ -246,6 +246,7 @@
 	100% {
 		transform: scale(1);
 	}
+}
 
 @keyframes yellowlineanim {
   0% {
@@ -419,14 +420,7 @@
 	0% {
 		transform: scale(0);
 	}
-
-  /* 0% {
-    width: 0vw;
-  } */
-  /* 50% {
-    width: 0vw;
-  }
-} */
+}
 
 @keyframes horlineanim1 {
   50% {
@@ -435,9 +429,9 @@
 }
 
 @keyframes horlineanim2 {
-  /* 0% {
+  0% {
     opacity: 0%;
-  } */
+  }
   100% {
     opacity: 0%;
   }
@@ -545,7 +539,7 @@
 
 @keyframes eventtextanim3 {
 	0% {
-		color: #FFFFFF ;
+		color: #FFFFFF;
 	}
   50% {
     color: #21B8EB;
