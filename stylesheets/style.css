@@ -110,6 +110,8 @@ body {
   right: 0vw;
   top: 6.500vw;
   background: #FFFFFF;
+  animation: linesblockanim 2s;
+  animation-delay: 0.5s;
 }
 
 .linesblock2 {
@@ -119,6 +121,8 @@ body {
   right: 0vw;
   top: 9.214vw;
   background: #FFFFFF;
+  animation: linesblockanim 2s;
+  animation-delay: 1s;
 }
 
 .linesblock3 {
@@ -128,6 +132,8 @@ body {
   right: 0vw;
   top: 11.929vw;
   background: #FFFFFF;
+  animation: linesblockanim 2s;
+  animation-delay: 1.5s;
 }
 
 .linesblock4 {
@@ -278,6 +284,8 @@ body {
   display: flex;
   align-items: center;
   color: #FFFFFF;
+  animation: netextanim 2s;
+  animation-delay: 0.5s;
 
 }
 
@@ -293,6 +301,8 @@ body {
   font-stretch: condensed;
   font-size: 2.500vw;
   color: #FFEC51;
+  animation: netextanim 2s;
+  animation-delay: 0.5s;
 }
 
 .netext2 {
@@ -307,6 +317,8 @@ body {
   font-stretch: condensed;
   font-size: 2.500vw;
   color: #FFFFFF;
+  animation: netextanim 2s;
+  animation-delay: 0.5s;
 }
 
 
@@ -711,8 +723,8 @@ body {
   font-weight: 700;
 	font-stretch: expanded;;
   font-size: 5.714vw;
-
   color: #FFEC51;
+  animation: eventtextanim1 2s infinite;
 }
 
 .eventtext2 {
@@ -720,7 +732,7 @@ body {
   width: 26.714vw;
   height: 2.857vw;
   left: 57vw;
-  top: 72vw;
+  top: 74vw;
 
   font-family: "Akzidenz-Grotesk Pro";
   font-weight: 700;
@@ -728,6 +740,7 @@ body {
   font-size: 2.857vw;
 
   color: #FFFFFF;
+  animation: eventtextanim1 2s infinite;
 }
 
 .arrowimg {
@@ -1191,12 +1204,12 @@ body {
   font-stretch: expanded;
   font-size: 5.714vw;
   line-height: 2.857vw;
-  /* identical to box height, or 50% */
 
   display: flex;
   align-items: center;
 
   color: #F3A2BC;
+  animation: eventtextanim2 2s infinite;
 }
 
 .adresstext {
@@ -1217,6 +1230,7 @@ body {
   align-items: center;
 
   color: #FFFFFF;
+  animation: eventtextanim2 2s infinite;
 }
 
 .yellowcircle {
@@ -1483,12 +1497,12 @@ body {
   font-stretch: expanded;
   font-size: 5.714vw;
   line-height: 2.857vw;
-  /* identical to box height, or 50% */
 
   display: flex;
   align-items: center;
 
   color: #21B8EB;
+  animation: eventtextanim3 2s infinite;
 }
 
 .datetext {
@@ -1508,6 +1522,7 @@ body {
   text-align: right;
 
   color: #FFFFFF;
+  animation: eventtextanim3 2s infinite;
 }
 
 .verlinesimg2 {
