@@ -227,16 +227,25 @@
 
 @keyframes figimgmoving1 {
   0% {
-    transform: translateY(0vw);
+
+    transform: rotate(0deg);
   }
-  50% {
-    transform: translateY(35vw);
-    width: 10vw;
-  }
-  100% {
-    transform: translateY(0vw);
-  }
-}
+	25% {
+		transform: scale(0.5);
+	}
+	50% {
+
+		transform: rotate(-90deg);
+
+	}
+	75% {
+		transform: rotate(0deg);
+	}
+
+
+	100% {
+		transform: scale(1);
+	}
 
 @keyframes yellowlineanim {
   0% {
@@ -400,13 +409,24 @@
 
 @keyframes scaleimg {
 
+	0% {
+		transform: scale(0);
+	}
+	50% {
+		transform: scale(1);
+	}
+
+	0% {
+		transform: scale(0);
+	}
+
   /* 0% {
     width: 0vw;
   } */
-  50% {
+  /* 50% {
     width: 0vw;
   }
-}
+} */
 
 @keyframes horlineanim1 {
   50% {
@@ -475,5 +495,63 @@
   50% {
     transform: rotate(180deg);
 
+  }
+}
+
+@keyframes linesblockanim {
+	0% {
+		transform: translateX(100vw)
+	}
+  50% {
+    transform: translateX(0vw)
+  }
+}
+
+
+@keyframes netextanim {
+	0% {
+		transform: scale(0);
+	}
+  50% {
+    transform: scale(1);
+  }
+}
+
+@keyframes eventtextanim1 {
+	0% {
+		color: #FFFFFF ;
+	}
+  50% {
+    color: #FFEC51;
+  }
+
+	100% {
+		color: #FFFFFF;
+  }
+}
+
+@keyframes eventtextanim2 {
+	0% {
+		color: #FFFFFF ;
+	}
+  50% {
+    color: #F3A2BC;
+  }
+
+	100% {
+		color: #FFFFFF;
+  }
+}
+
+@keyframes eventtextanim3 {
+	0% {
+		color: #FFFFFF ;
+	}
+  50% {
+    color: #21B8EB;
+  }
+
+	100% {
+		color: #FFFFFF;
   }
 }
