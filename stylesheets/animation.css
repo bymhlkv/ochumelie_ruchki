@@ -423,8 +423,11 @@
 }
 
 @keyframes horlineanim1 {
-  50% {
+  0% {
     opacity: 0%;
+  }
+	50% {
+    opacity: 100%;
   }
 }
 
@@ -432,14 +435,17 @@
   0% {
     opacity: 0%;
   }
-  100% {
-    opacity: 0%;
+  50% {
+    opacity: 100%;
   }
 }
 
 @keyframes horlineanim3 {
-  50% {
+  0% {
     opacity: 0%;
+  }
+	50% {
+    opacity: 100%;
   }
 }
 
@@ -547,5 +553,190 @@
 
 	100% {
 		color: #FFFFFF;
+  }
+}
+
+@keyframes colhorlineanim1 {
+  0% {
+    opacity: 0%;
+  }
+	50% {
+    opacity: 100%;
+  }
+}
+
+@keyframes colhorlineanim2 {
+  0% {
+    opacity: 0%;
+  }
+	50% {
+    opacity: 100%;
+  }
+}
+
+@keyframes colhorlineanim3 {
+  0% {
+    opacity: 0%;
+  }
+	50% {
+    opacity: 100%;
+  }
+}
+
+@keyframes colhorlineanim4 {
+  0% {
+    opacity: 0%;
+  }
+	50% {
+    opacity: 100%;
+  }
+}
+
+@keyframes colhorlineanim5 {
+  0% {
+    opacity: 0%;
+  }
+	50% {
+    opacity: 100%;
+  }
+}
+
+@keyframes colhorlineanim6 {
+  0% {
+    opacity: 0%;
+  }
+	50% {
+    opacity: 100%;
+  }
+}
+
+@keyframes colhorlineanim7 {
+  0% {
+    opacity: 0%;
+  }
+	50% {
+    opacity: 100%;
+  }
+}
+
+@keyframes colhorlineanim8 {
+  0% {
+    opacity: 0%;
+  }
+	50% {
+    opacity: 100%;
+  }
+}
+
+@keyframes colhorlineanim9 {
+  0% {
+    opacity: 0%;
+  }
+	50% {
+    opacity: 100%;
+  }
+}
+
+@keyframes colhorlineanim10 {
+  0% {
+    opacity: 0%;
+  }
+	50% {
+    opacity: 100%;
+  }
+}
+
+@keyframes horlinanim1 {
+  0% {
+    opacity: 0%;
+  }
+	50% {
+    opacity: 100%;
+  }
+}
+
+@keyframes horlinanim2 {
+  0% {
+    opacity: 0%;
+  }
+	50% {
+    opacity: 100%;
+		background-color: #21B8EB;
+  }
+}
+
+@keyframes horlinanim3 {
+  0% {
+    opacity: 0%;
+  }
+	50% {
+    opacity: 100%;
+  }
+}
+
+@keyframes horlinanim4 {
+  0% {
+    opacity: 0%;
+  }
+	50% {
+    opacity: 100%;
+		background-color: #FFCCD6;
+  }
+}
+
+@keyframes horlinanim5 {
+  0% {
+    opacity: 0%;
+  }
+	50% {
+    opacity: 100%;
+  }
+}
+
+@keyframes horlinanim5 {
+  0% {
+    opacity: 0%;
+  }
+	50% {
+    opacity: 100%;
+		background-color: #FFEC51;
+  }
+}
+
+@keyframes horlinanim6 {
+  0% {
+    opacity: 0%;
+  }
+	50% {
+    opacity: 100%;
+  }
+}
+
+@keyframes horlinanim7 {
+  0% {
+    opacity: 0%;
+  }
+	50% {
+    opacity: 100%;
+		background-color: #F3A2BC;
+  }
+}
+
+@keyframes horlinanim8 {
+  0% {
+    opacity: 0%;
+  }
+	50% {
+    opacity: 100%;
+  }
+}
+
+@keyframes horlinanim9 {
+  0% {
+    opacity: 0%;
+  }
+	50% {
+    opacity: 100%;
+		background-color: #21B8EB;
   }
 }
